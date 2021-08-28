@@ -97,12 +97,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/ca1758619f93089bcc747.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
+ You can support the project via [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼](ko-fi.com/sawada) or by contacting @ImTheekshana \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Theekshana_Official."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,28 +227,28 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support",
+                                text="👥Support",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/Theekshana_Official",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting Started",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="🧾 Mizu Bot",
+                                url="https://t.me/TheMizuBot",
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                url="https://www.youtube.com/channel/UC8wT0oAFDBo_LArM5Bvx-Pw",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
+                                text="👤Bot Developer",
+                                url="https://t.me/ImTheekshana",
                             ),
                         ],
                     ],
